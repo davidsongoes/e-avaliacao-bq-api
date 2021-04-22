@@ -1,0 +1,197 @@
+{
+  "subjects": [
+    {
+      "id": 1,
+      "name": "Matematica",
+      "code": "MAT",
+      "description": "Lorem Ipsum Matematica"
+    },
+    {
+      "id": 2,
+      "name": "Fisica",
+      "code": "FIS",
+      "description": "Lorem Ipsum Fisica"
+    },
+    {
+      "id": 3,
+      "name": "Estrutura da Dados",
+      "code": "EST-DADOS",
+      "description": "Lorem Ipsum Estrutura de Dados"
+    },
+    {
+      "id": 4,
+      "name": "Banco de Dados",
+      "code": "BD",
+      "description": "Lorem Ipsum Banco de Dados"
+    },
+    {
+      "id": 5,
+      "name": "Calculo I",
+      "code": "CALC I",
+      "description": "Lorem Ipsum Calculo I"
+    }
+  ],
+  "evaluation": [
+    {
+      "id": 1,
+      "name": "Campo Geral",
+      "code": "M1",
+      "description": "Modelo de Avaliação Padrão de Campo Geral",
+      "data": [
+        {
+          "id": 10,
+          "label": "333",
+          "description": "333",
+          "code": "333",
+          "peso": null,
+          "notaMin": null,
+          "notaMax": null
+        },
+        {
+          "id": 81,
+          "label": "222",
+          "description": "2222",
+          "code": "222",
+          "peso": "",
+          "notaMin": "",
+          "notaMax": "",
+          "expanded": false
+        }
+      ],
+      "children": [
+        {
+          "id": 81,
+          "label": "Campo Geral",
+          "expanded": true,
+          "description": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Campo Militar",
+      "code": "M2",
+      "description": "Modelo de Avaliação Padrão de Campo Militar",
+      "data": [],
+      "children": [
+        {
+          "id": 90,
+          "parent": "",
+          "label": "Campo Militar",
+          "expanded": false,
+          "description": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Teste de Aptidão e Condicionamento Física",
+      "code": "M3",
+      "description": "Modelo de Avaliação Padrão de TACF",
+      "data": [],
+      "children": [
+        {
+          "id": 40,
+          "parent": "",
+          "label": "Teste de Aptidão e Condicionamento Física",
+          "expanded": false,
+          "description": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Campo Geral V2",
+      "code": "M1B",
+      "description": "Modelo de Avaliação V2 de Campo Geral",
+      "data": [],
+      "children": [
+        {
+          "id": 95,
+          "parent": "",
+          "label": "Campo Geral V2",
+          "expanded": false,
+          "description": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Campo Militar V3",
+      "code": "M2C",
+      "description": "Modelo de Avaliação V3 de Campo Militar",
+      "data": [],
+      "children": [
+        {
+          "id": 48,
+          "parent": "",
+          "label": "Campo Militar V3",
+          "expanded": false,
+          "description": "",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "process": [
+    {
+      "id": 1,
+      "name": "CPCAR 2019",
+      "description": "volutpat sapien"
+    },
+    {
+      "id": 2,
+      "name": "CPCAR 2020",
+      "description": "leo odio"
+    },
+    {
+      "id": 3,
+      "name": "CPCAR 2021",
+      "description": "ac leo pellentesque"
+    },
+    {
+      "id": 4,
+      "name": "CPCAR 2022",
+      "description": "vel accumsan tellus"
+    },
+    {
+      "id": 5,
+      "name": "CPCAR 2023",
+      "description": "quam sapien"
+    },
+    {
+      "id": 6,
+      "name": "in faucibus",
+      "description": "mauris non ligula"
+    },
+    {
+      "id": 7,
+      "name": "nam",
+      "description": "mauris laoreet"
+    },
+    {
+      "id": 8,
+      "name": "habitasse platea",
+      "description": "ut massa"
+    },
+    {
+      "id": 9,
+      "name": "convallis",
+      "description": "odio justo"
+    },
+    {
+      "id": 10,
+      "name": "quam turpis",
+      "description": "nec nisi vulputate"
+    },
+    {
+      "id": 11,
+      "name": "sapien",
+      "description": "vulputate luctus"
+    }
+  ]
+}
