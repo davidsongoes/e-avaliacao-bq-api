@@ -39,22 +39,14 @@
       "description": "Modelo de Avaliação Padrão de Campo Geral",
       "data": [
         {
-          "id": 81,
-          "label": "222",
-          "description": "2222",
-          "code": "222",
-          "peso": "",
-          "notaMin": "",
-          "notaMax": ""
-        },
-        {
-          "id": 10,
-          "label": "333",
-          "description": "333",
-          "code": "333",
-          "peso": null,
-          "notaMin": null,
-          "notaMax": null
+          "id": 77,
+          "label": "AAA",
+          "description": "AAA",
+          "leaf": true,
+          "code": "AAA",
+          "peso": 1,
+          "notaMin": 1,
+          "notaMax": 10
         }
       ],
       "children": [
@@ -63,7 +55,47 @@
           "label": "Campo Geral",
           "expanded": true,
           "description": "",
-          "children": []
+          "children": [
+            {
+              "id": 14,
+              "label": "No",
+              "description": "No",
+              "leaf": false,
+              "code": "No",
+              "peso": "",
+              "notaMin": "",
+              "notaMax": "",
+              "children": [
+                {
+                  "id": 38,
+                  "label": "Teste",
+                  "description": "teste",
+                  "leaf": true,
+                  "code": "teste",
+                  "peso": 1,
+                  "notaMin": 1,
+                  "notaMax": 1,
+                  "expanded": false,
+                  "parent": ""
+                },
+                {
+                  "id": 3,
+                  "label": "Leaf",
+                  "description": "Leaf",
+                  "leaf": true,
+                  "code": "Leaf",
+                  "peso": 1,
+                  "notaMin": 10,
+                  "notaMax": 10,
+                  "expanded": false,
+                  "parent": ""
+                }
+              ],
+              "expanded": true,
+              "parent": ""
+            }
+          ],
+          "parent": ""
         }
       ]
     },
@@ -76,7 +108,6 @@
       "children": [
         {
           "id": 90,
-          "parent": "",
           "label": "Campo Militar",
           "expanded": false,
           "description": "",
@@ -141,113 +172,267 @@
       "id": 1,
       "name": "CPCAR 2019",
       "description": "volutpat sapien",
+      "people": [
+        {
+          "id": 2,
+          "name": "JOSAFÁ MARTINS DE LUNA",
+          "saram": "7167547",
+          "unidade": "EPCAR"
+        },
+        {
+          "id": 3,
+          "name": "LUIZ RICARDO GOIS SIMIONATO",
+          "saram": "7279280",
+          "unidade": "EPCAR"
+        }
+      ],
+      "model": {
+        "id": 2,
+        "name": "Campo Militar",
+        "code": "M2",
+        "description": "Modelo de Avaliação Padrão de Campo Militar",
+        "data": [],
+        "children": [
+          {
+            "id": 90,
+            "label": "Campo Militar",
+            "expanded": false,
+            "description": "",
+            "children": []
+          }
+        ]
+      },
       "subjects": [
         {
           "id": 1,
           "name": "Matematica",
           "code": "MAT",
           "description": "Lorem Ipsum Matematica"
-        }
-      ],
-      "model": {
-        "id": 1,
-        "name": "Campo Geral",
-        "code": "M1",
-        "description": "Modelo de Avaliação Padrão de Campo Geral",
-        "data": [
-          {
-            "id": 81,
-            "label": "222",
-            "description": "2222",
-            "code": "222",
-            "peso": "",
-            "notaMin": "",
-            "notaMax": ""
-          },
-          {
-            "id": 10,
-            "label": "333",
-            "description": "333",
-            "code": "333",
-            "peso": null,
-            "notaMin": null,
-            "notaMax": null
-          }
-        ],
-        "children": [
-          {
-            "id": 81,
-            "label": "Campo Geral",
-            "expanded": true,
-            "description": "",
-            "children": []
-          }
-        ]
-      },
-      "people": [
+        },
+        {
+          "id": 2,
+          "name": "Fisica",
+          "code": "FIS",
+          "description": "Lorem Ipsum Fisica"
+        },
+        {
+          "id": 3,
+          "name": "Estrutura da Dados",
+          "code": "EST-DADOS",
+          "description": "Lorem Ipsum Estrutura de Dados"
+        },
         {
           "id": 4,
-          "name": "PEDRO LUCAS COUTINHO SILVA",
-          "saram": "7197772",
-          "unidade": "EPCAR"
+          "name": "Banco de Dados",
+          "code": "BD",
+          "description": "Lorem Ipsum Banco de Dados"
         },
         {
           "id": 5,
-          "name": "JOÃO VICTOR QUARESMA BARROS",
-          "saram": "7279191",
-          "unidade": "EPCAR"
+          "name": "Calculo I",
+          "code": "CALC I",
+          "description": "Lorem Ipsum Calculo I"
         }
       ]
     },
     {
       "id": 2,
       "name": "CPCAR 2020",
-      "description": "leo odio"
+      "description": "leo odio",
+      "people": [
+        {
+          "id": 3,
+          "name": "LUIZ RICARDO GOIS SIMIONATO",
+          "saram": "7279280",
+          "unidade": "EPCAR"
+        },
+        {
+          "id": 2,
+          "name": "JOSAFÁ MARTINS DE LUNA",
+          "saram": "7167547",
+          "unidade": "EPCAR"
+        }
+      ],
+      "model": {
+        "id": 4,
+        "name": "Campo Geral V2",
+        "code": "M1B",
+        "description": "Modelo de Avaliação V2 de Campo Geral",
+        "data": [],
+        "children": [
+          {
+            "id": 95,
+            "parent": "",
+            "label": "Campo Geral V2",
+            "expanded": false,
+            "description": "",
+            "children": []
+          }
+        ]
+      },
+      "subjects": [
+        {
+          "id": 3,
+          "name": "Estrutura da Dados",
+          "code": "EST-DADOS",
+          "description": "Lorem Ipsum Estrutura de Dados"
+        }
+      ]
     },
     {
       "id": 3,
       "name": "CPCAR 2021",
-      "description": "ac leo pellentesque"
+      "description": "ac leo pellentesque",
+      "people": [
+        {
+          "id": 2,
+          "name": "JOSAFÁ MARTINS DE LUNA",
+          "saram": "7167547",
+          "unidade": "EPCAR"
+        }
+      ],
+      "model": {
+        "id": 3,
+        "name": "Teste de Aptidão e Condicionamento Física",
+        "code": "M3",
+        "description": "Modelo de Avaliação Padrão de TACF",
+        "data": [],
+        "children": [
+          {
+            "id": 40,
+            "parent": "",
+            "label": "Teste de Aptidão e Condicionamento Física",
+            "expanded": false,
+            "description": "",
+            "children": []
+          }
+        ]
+      },
+      "subjects": [
+        {
+          "id": 4,
+          "name": "Banco de Dados",
+          "code": "BD",
+          "description": "Lorem Ipsum Banco de Dados"
+        },
+        {
+          "id": 3,
+          "name": "Estrutura da Dados",
+          "code": "EST-DADOS",
+          "description": "Lorem Ipsum Estrutura de Dados"
+        },
+        {
+          "id": 2,
+          "name": "Fisica",
+          "code": "FIS",
+          "description": "Lorem Ipsum Fisica"
+        }
+      ]
     },
     {
       "id": 4,
       "name": "CPCAR 2022",
-      "description": "vel accumsan tellus"
+      "description": "vel accumsan tellus",
+      "people": [
+        {
+          "id": 4,
+          "name": "PEDRO LUCAS COUTINHO SILVA",
+          "saram": "7197772",
+          "unidade": "EPCAR"
+        }
+      ],
+      "model": {
+        "id": 2,
+        "name": "Campo Militar",
+        "code": "M2",
+        "description": "Modelo de Avaliação Padrão de Campo Militar",
+        "data": [],
+        "children": [
+          {
+            "id": 90,
+            "label": "Campo Militar",
+            "expanded": false,
+            "description": "",
+            "children": []
+          }
+        ]
+      },
+      "subjects": [
+        {
+          "id": 1,
+          "name": "Matematica",
+          "code": "MAT",
+          "description": "Lorem Ipsum Matematica"
+        },
+        {
+          "id": 2,
+          "name": "Fisica",
+          "code": "FIS",
+          "description": "Lorem Ipsum Fisica"
+        },
+        {
+          "id": 3,
+          "name": "Estrutura da Dados",
+          "code": "EST-DADOS",
+          "description": "Lorem Ipsum Estrutura de Dados"
+        },
+        {
+          "id": 4,
+          "name": "Banco de Dados",
+          "code": "BD",
+          "description": "Lorem Ipsum Banco de Dados"
+        },
+        {
+          "id": 5,
+          "name": "Calculo I",
+          "code": "CALC I",
+          "description": "Lorem Ipsum Calculo I"
+        }
+      ]
     },
     {
       "id": 5,
       "name": "CPCAR 2023",
-      "description": "quam sapien"
-    },
-    {
-      "id": 6,
-      "name": "in faucibus",
-      "description": "mauris non ligula"
-    },
-    {
-      "id": 7,
-      "name": "nam",
-      "description": "mauris laoreet"
-    },
-    {
-      "id": 8,
-      "name": "habitasse platea",
-      "description": "ut massa"
-    },
-    {
-      "id": 9,
-      "name": "convallis",
-      "description": "odio justo"
-    },
-    {
-      "id": 10,
-      "name": "quam turpis",
-      "description": "nec nisi vulputate"
-    },
-    {
-      "id": 11,
-      "name": "sapien",
-      "description": "vulputate luctus"
+      "description": "quam sapien",
+      "people": [
+        {
+          "id": 2,
+          "name": "JOSAFÁ MARTINS DE LUNA",
+          "saram": "7167547",
+          "unidade": "EPCAR"
+        }
+      ],
+      "model": {
+        "id": 5,
+        "name": "Campo Militar V3",
+        "code": "M2C",
+        "description": "Modelo de Avaliação V3 de Campo Militar",
+        "data": [],
+        "children": [
+          {
+            "id": 48,
+            "parent": "",
+            "label": "Campo Militar V3",
+            "expanded": false,
+            "description": "",
+            "children": []
+          }
+        ]
+      },
+      "subjects": [
+        {
+          "id": 2,
+          "name": "Fisica",
+          "code": "FIS",
+          "description": "Lorem Ipsum Fisica"
+        },
+        {
+          "id": 4,
+          "name": "Banco de Dados",
+          "code": "BD",
+          "description": "Lorem Ipsum Banco de Dados"
+        }
+      ]
     }
   ],
   "people": [
