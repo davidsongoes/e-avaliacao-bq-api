@@ -47,6 +47,16 @@
           "peso": 1,
           "notaMin": 1,
           "notaMax": 10
+        },
+        {
+          "id": 87,
+          "label": "asdasd",
+          "description": "assdasd",
+          "leaf": false,
+          "code": "asdasd",
+          "peso": 0,
+          "notaMin": 0,
+          "notaMax": 0
         }
       ],
       "children": [
@@ -161,6 +171,22 @@
           "parent": "",
           "label": "Campo Militar V3",
           "expanded": false,
+          "description": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "awrqwer",
+      "code": "qweqweqw",
+      "description": "eqweqwe",
+      "data": [],
+      "children": [
+        {
+          "id": 15,
+          "label": "awrqwer",
+          "expanded": true,
           "description": "",
           "children": []
         }
